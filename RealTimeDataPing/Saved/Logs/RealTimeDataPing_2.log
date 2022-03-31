@@ -1267,3 +1267,484 @@ Food Bin #1,1,04:23.21,63
 [2022.03.31-17.48.13:848][182]LogHttp: Warning: 000002DFA5580800: libcurl info message cache 6 (Closing connection 15)
 [2022.03.31-17.48.13:848][182]LogHttp: Warning: 000002DFA5580800: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
 [2022.03.31-17.48.13:848][182]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1D2FEFF4-4ACC-620E-3FE9-1295029418BC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=154bea654b63e47039709d843f54bf9f%7Cf8bafd14509f4b308f48d2d0e4e2961a%7C460d9e44-da18-480d-be27-bbb6143c0802&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.03.31-17.55.02:707][631]MapCheck: New page: Map Check
+[2022.03.31-17.55.02:720][631]Cmd: MAP REBUILD ALLVISIBLE
+[2022.03.31-17.55.02:721][631]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.03.31-17.55.02:797][631]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=false
+[2022.03.31-17.55.02:806][631]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.03.31-17.55.02:806][631]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.03.31-17.55.02:806][631]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.03.31-17.55.02:832][631]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.03.31-17.55.02:846][631]LogLevel: Display: Export Material TexCoord Scales took 0.009 seconds.
+[2022.03.31-17.55.02:849][631]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2022.03.31-17.55.02:868][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.03.31-17.55.02:873][631]LightingResults: New page: Lighting Build - Mar 31, 2022, 9:55:02 AM
+[2022.03.31-17.55.02:904][631]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.03.31-17.55.02:944][631]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.03.31-17.55.02:953][631]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.03.31-17.55.03:972][631]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.03.31-17.55.03:972][631]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6688
+[2022.03.31-17.55.17:847][631]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.03.31-17.55.17:847][631]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.03.31-17.55.17:847][631]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.03.31-17.55.17:847][631]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.03.31-17.55.17:847][631]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.03.31-17.55.17:847][631]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.03.31-17.55.17:991][631]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.03.31-17.55.17:991][631]MapCheck: New page: Untitled_1 - Mar 31, 2022, 9:55:17 AM
+[2022.03.31-17.55.17:992][631]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2022.03.31-17.55.17:993][631]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1.506ms to complete.
+[2022.03.31-17.55.17:995][631]LogEditorBuildUtils: Build time 0:15
+[2022.03.31-17.55.18:389][632]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.31-17.55.18:390][632]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.03.31-17.55.18:390][632]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.03.31-17.55.18:390][632]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.03.31-17.55.18:390][632]LogShaderCompilers: Display: ================================================
+[2022.03.31-17.55.18:530][634]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2022.03.31-17.55.19:664][676]Job is a success!
+[2022.03.31-17.55.19:768][677]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2022.03.31-17.55.19:768][677]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.03.31-17.55.19:769][677]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2022.03.31-17.55.19:769][677]LogVolumetricLightmapImport:      Bricks at depth
+[2022.03.31-17.55.19:769][677]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2022.03.31-17.55.19:769][677]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2022.03.31-17.55.19:769][677]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2022.03.31-17.55.19:769][677]LogVolumetricLightmapImport:      Bricks in each level
+[2022.03.31-17.55.19:769][677]LogVolumetricLightmapImport:          Untitled_1 			 6 bricks 	 100.0% (Persistent Level)
+[2022.03.31-17.55.19:802][677]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 256X256)
+[2022.03.31-17.55.19:802][677]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 64X64)
+[2022.03.31-17.55.19:802][677]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 256X256)
+[2022.03.31-17.55.19:802][677]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 64X64)
+[2022.03.31-17.55.19:802][677]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2022.03.31-17.55.19:802][677]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2022.03.31-17.55.19:802][677]LogStaticLightingSystem: Template_Default_BuiltData storing lightmap data for 2 meshes in 2 LightmapResourceClusters (1.0 Meshes per cluster).
+[2022.03.31-17.55.19:827][677]Lightmass on MSI: 681 ms total, 181 ms importing, 17 ms setup, 55 ms photons, 380 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 4.18 sec total, 139 ms processing.
+[2022.03.31-17.55.19:842][677]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.03.31-17.55.19:872][677]LogStaticLightingSystem: Illumination: 16.9 sec (7 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2022.03.31-17.55.19:872][677]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.03.31-17.55.19:872][677]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.03.31-17.55.20:856][677]DumpUnbuiltLightIteractions
+[2022.03.31-17.55.20:856][677]Lights with unbuilt interactions: 0
+[2022.03.31-17.55.20:856][677]
+[2022.03.31-17.55.20:856][677]Primitives with unbuilt interactions: 0
+[2022.03.31-17.55.20:900][677]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.03.31-17.55.20:923][678]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.03.31-17.55.20:924][678]MapCheck: New page: Untitled_1 - Mar 31, 2022, 9:55:20 AM
+[2022.03.31-17.55.20:924][678]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.274ms to complete.
+[2022.03.31-17.55.20:992][682]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Content/Maps/Templates/Template_Default_BuiltData.uasset: 'C:/Program Files/Epic Games/UE_4.27/Engine/Content/Maps/Templates/Template_Default_BuiltData.uasset' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.55.23:708][845]LogSlate: Window 'Message Log' being destroyed
+[2022.03.31-17.55.23:712][845]LogSlate: Window 'Message Log' being destroyed
+[2022.03.31-17.55.25:785][969]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.31-17.55.25:789][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.31-17.55.25:789][969]PIE: New page: PIE session: Untitled_1 (Mar 31, 2022, 9:55:25 AM)
+[2022.03.31-17.55.25:789][969]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2022.03.31-17.55.25:791][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001793s)
+[2022.03.31-17.55.25:792][969]LogAIModule: Creating AISystem for world Untitled_1
+[2022.03.31-17.55.25:792][969]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2022.03.31-17.55.25:792][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002987s)
+[2022.03.31-17.55.25:812][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.03.31-17.55.25:813][969]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.03.31-17.55.25:813][969]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.31-17.55.25:813][969]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.31-17.55.25:813][969]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.31-17.55.25:813][969]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.31-17.55.25:813][969]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.31-17.55.25:813][969]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.31-17.55.25:813][969]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.31-17.55.25:813][969]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.31-17.55.25:814][969]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.31-17.55.25:814][969]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.31-17.55.25:814][969]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.31-17.55.25:814][969]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.31-17.55.25:818][969]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.31-17.55.25:818][969]LogAudioMixer: Display: 1: FrontRight
+[2022.03.31-17.55.25:841][969]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.03.31-17.55.25:842][969]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.31-17.55.25:842][969]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.31-17.55.25:842][969]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.31-17.55.25:842][969]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.31-17.55.25:842][969]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.31-17.55.25:842][969]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.31-17.55.25:843][969]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.31-17.55.25:843][969]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.31-17.55.25:843][969]LogInit: FAudioDevice initialized.
+[2022.03.31-17.55.25:843][969]LogAudio: Display: Audio Device (ID: 5) registered with world 'Untitled_1'.
+[2022.03.31-17.55.25:851][969]LogLoad: Game class is 'GameModeBase'
+[2022.03.31-17.55.25:851][969]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2022.03.31-13.55.25
+[2022.03.31-17.55.25:852][969]LogWorld: Bringing up level for play took: 0.000380
+[2022.03.31-17.55.25:852][969]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2022.03.31-17.55.25:853][969]LogRuntimeDataTable: URL to download csv is https://docs.google.com/spreadsheets/d/1za1ITRt5-hlSccK7QHmRE5Mhy4UpQgKe-48D4Uew028/export?format=csv&gid=0
+[2022.03.31-17.55.25:853][969]LogRuntimeDataTable: URL to download csv is https://docs.google.com/spreadsheets/d/1za1ITRt5-hlSccK7QHmRE5Mhy4UpQgKe-48D4Uew028/export?format=csv&gid=0
+[2022.03.31-17.55.25:853][969]PIE: Server logged in
+[2022.03.31-17.55.25:854][969]PIE: Play in editor total start time 0.065 seconds.
+[2022.03.31-17.55.26:469][  7]LogRuntimeDataTable: URuntimeDataTableObject::GenericValidateHttpResponse: GET Response received, success: true, Response code: 200, Response:
+Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.55.26:470][  7]LogBlueprintUserMessages: [BP_Doc_2] Well The stuff should be in an array
+[2022.03.31-17.55.26:470][  7]LogRuntimeDataTable: URuntimeDataTableObject::GenericValidateHttpResponse: GET Response received, success: true, Response code: 200, Response:
+Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.55.26:470][  7]LogBlueprintUserMessages: [BP_Doc_2] Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.55.51:586][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-17.55.51:586][511]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2022.03.31-17.55.51:587][511]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-17.55.51:587][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-17.55.51:595][511]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.31-17.55.51:603][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-17.55.51:622][511]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.31-17.55.51:622][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-17.55.51:623][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-17.55.51:633][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-17.55.51:635][511]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.03.31-17.55.51:671][513]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.03.31-17.56.09:106][559]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.03.31-17.56.14:414][877]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.03.31-17.56.15:701][954]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.03.31-17.56.16:697][ 13]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.31-17.56.16:700][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.31-17.56.16:700][ 13]PIE: New page: PIE session: Untitled_1 (Mar 31, 2022, 9:56:16 AM)
+[2022.03.31-17.56.16:700][ 13]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2022.03.31-17.56.16:702][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001864s)
+[2022.03.31-17.56.16:703][ 13]LogAIModule: Creating AISystem for world Untitled_1
+[2022.03.31-17.56.16:703][ 13]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2022.03.31-17.56.16:703][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003352s)
+[2022.03.31-17.56.16:724][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.03.31-17.56.16:726][ 13]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.03.31-17.56.16:726][ 13]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.31-17.56.16:726][ 13]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.31-17.56.16:726][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.31-17.56.16:726][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.31-17.56.16:726][ 13]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.31-17.56.16:726][ 13]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.31-17.56.16:726][ 13]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.31-17.56.16:726][ 13]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.31-17.56.16:726][ 13]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.31-17.56.16:726][ 13]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.31-17.56.16:726][ 13]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.31-17.56.16:726][ 13]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.31-17.56.16:730][ 13]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.31-17.56.16:730][ 13]LogAudioMixer: Display: 1: FrontRight
+[2022.03.31-17.56.16:751][ 13]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.03.31-17.56.16:751][ 13]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.31-17.56.16:751][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.31-17.56.16:751][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.31-17.56.16:752][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.31-17.56.16:752][ 13]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.31-17.56.16:752][ 13]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.31-17.56.16:753][ 13]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.31-17.56.16:753][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.31-17.56.16:753][ 13]LogInit: FAudioDevice initialized.
+[2022.03.31-17.56.16:753][ 13]LogAudio: Display: Audio Device (ID: 6) registered with world 'Untitled_1'.
+[2022.03.31-17.56.16:759][ 13]LogLoad: Game class is 'GameModeBase'
+[2022.03.31-17.56.16:760][ 13]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2022.03.31-13.56.16
+[2022.03.31-17.56.16:760][ 13]LogWorld: Bringing up level for play took: 0.000499
+[2022.03.31-17.56.16:761][ 13]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2022.03.31-17.56.16:762][ 13]LogRuntimeDataTable: URL to download csv is https://docs.google.com/spreadsheets/d/1za1ITRt5-hlSccK7QHmRE5Mhy4UpQgKe-48D4Uew028/export?format=csv&gid=0
+[2022.03.31-17.56.16:762][ 13]LogRuntimeDataTable: URL to download csv is https://docs.google.com/spreadsheets/d/1za1ITRt5-hlSccK7QHmRE5Mhy4UpQgKe-48D4Uew028/export?format=csv&gid=0
+[2022.03.31-17.56.16:762][ 13]PIE: Server logged in
+[2022.03.31-17.56.16:763][ 13]PIE: Play in editor total start time 0.064 seconds.
+[2022.03.31-17.56.16:996][ 28]LogRuntimeDataTable: URuntimeDataTableObject::GenericValidateHttpResponse: GET Response received, success: true, Response code: 200, Response:
+Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.56.16:996][ 28]LogBlueprintUserMessages: [BP_Doc_2] Well The stuff should be in an array
+[2022.03.31-17.56.17:030][ 30]LogRuntimeDataTable: URuntimeDataTableObject::GenericValidateHttpResponse: GET Response received, success: true, Response code: 200, Response:
+Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.56.17:030][ 30]LogBlueprintUserMessages: [BP_Doc_2] Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.56.20:716][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-17.56.20:716][249]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2022.03.31-17.56.20:716][249]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-17.56.20:716][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-17.56.20:726][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.31-17.56.20:735][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-17.56.20:755][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-17.56.20:755][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-17.56.20:757][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-17.56.20:775][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.03.31-17.56.20:797][250]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.03.31-17.56.35:099][108]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.03.31-17.56.36:365][184]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.31-17.56.36:369][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.31-17.56.36:369][184]PIE: New page: PIE session: Untitled_1 (Mar 31, 2022, 9:56:36 AM)
+[2022.03.31-17.56.36:369][184]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2022.03.31-17.56.36:371][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001688s)
+[2022.03.31-17.56.36:372][184]LogAIModule: Creating AISystem for world Untitled_1
+[2022.03.31-17.56.36:372][184]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2022.03.31-17.56.36:372][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003038s)
+[2022.03.31-17.56.36:394][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.03.31-17.56.36:395][184]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.03.31-17.56.36:395][184]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.31-17.56.36:395][184]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.31-17.56.36:395][184]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.31-17.56.36:395][184]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.31-17.56.36:395][184]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.31-17.56.36:395][184]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.31-17.56.36:395][184]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.31-17.56.36:395][184]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.31-17.56.36:396][184]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.31-17.56.36:396][184]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.31-17.56.36:396][184]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.31-17.56.36:396][184]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.31-17.56.36:400][184]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.31-17.56.36:400][184]LogAudioMixer: Display: 1: FrontRight
+[2022.03.31-17.56.36:421][184]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.03.31-17.56.36:421][184]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.31-17.56.36:421][184]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.31-17.56.36:421][184]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.31-17.56.36:421][184]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.31-17.56.36:422][184]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.31-17.56.36:422][184]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.31-17.56.36:423][184]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.31-17.56.36:423][184]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.31-17.56.36:423][184]LogInit: FAudioDevice initialized.
+[2022.03.31-17.56.36:423][184]LogAudio: Display: Audio Device (ID: 7) registered with world 'Untitled_1'.
+[2022.03.31-17.56.36:431][184]LogLoad: Game class is 'GameModeBase'
+[2022.03.31-17.56.36:432][184]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2022.03.31-13.56.36
+[2022.03.31-17.56.36:432][184]LogWorld: Bringing up level for play took: 0.000407
+[2022.03.31-17.56.36:432][184]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2022.03.31-17.56.36:434][184]LogRuntimeDataTable: URL to download csv is https://docs.google.com/spreadsheets/d/1za1ITRt5-hlSccK7QHmRE5Mhy4UpQgKe-48D4Uew028/export?format=csv&gid=0
+[2022.03.31-17.56.36:434][184]LogRuntimeDataTable: URL to download csv is https://docs.google.com/spreadsheets/d/1za1ITRt5-hlSccK7QHmRE5Mhy4UpQgKe-48D4Uew028/export?format=csv&gid=0
+[2022.03.31-17.56.36:434][184]PIE: Server logged in
+[2022.03.31-17.56.36:435][184]PIE: Play in editor total start time 0.066 seconds.
+[2022.03.31-17.56.36:717][202]LogRuntimeDataTable: URuntimeDataTableObject::GenericValidateHttpResponse: GET Response received, success: true, Response code: 200, Response:
+Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.56.36:717][202]LogBlueprintUserMessages: [BP_Doc_2] Well The stuff should be in an array
+[2022.03.31-17.56.36:717][202]LogRuntimeDataTable: URuntimeDataTableObject::GenericValidateHttpResponse: GET Response received, success: true, Response code: 200, Response:
+Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.56.36:717][202]LogBlueprintUserMessages: [BP_Doc_2] Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.57.07:166][587]LogSlate: Window 'Pick Row Structure' being destroyed
+[2022.03.31-17.57.07:171][587]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2022.03.31-17.57.07:183][587]LogContentBrowser: Creating deferred item: NewDataTable
+[2022.03.31-17.57.13:820][986]LogContentBrowser: Attempting asset rename: NewDataTable -> DT_Ping
+[2022.03.31-17.57.13:866][986]LogContentBrowser: End creating deferred item NewDataTable
+[2022.03.31-17.57.15:975][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-17.57.15:975][111]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2022.03.31-17.57.15:975][111]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-17.57.15:976][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-17.57.15:985][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.31-17.57.15:997][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-17.57.16:018][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-17.57.16:018][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-17.57.16:020][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-17.57.16:033][111]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.03.31-17.57.16:051][112]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.03.31-17.57.19:610][325]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.31-17.57.19:614][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.31-17.57.19:614][325]PIE: New page: PIE session: Untitled_1 (Mar 31, 2022, 9:57:19 AM)
+[2022.03.31-17.57.19:614][325]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2022.03.31-17.57.19:616][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002320s)
+[2022.03.31-17.57.19:617][325]LogAIModule: Creating AISystem for world Untitled_1
+[2022.03.31-17.57.19:618][325]LogPlayLevel: PIE: World Init took: (0.001539s)
+[2022.03.31-17.57.19:618][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004022s)
+[2022.03.31-17.57.19:643][325]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2022.03.31-17.57.19:644][325]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.03.31-17.57.19:644][325]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.31-17.57.19:644][325]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.31-17.57.19:644][325]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.31-17.57.19:644][325]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.31-17.57.19:644][325]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.31-17.57.19:644][325]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.31-17.57.19:644][325]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.31-17.57.19:644][325]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.31-17.57.19:644][325]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.31-17.57.19:644][325]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.31-17.57.19:644][325]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.31-17.57.19:644][325]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.31-17.57.19:649][325]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.31-17.57.19:649][325]LogAudioMixer: Display: 1: FrontRight
+[2022.03.31-17.57.19:672][325]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.03.31-17.57.19:672][325]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.31-17.57.19:672][325]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.31-17.57.19:672][325]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.31-17.57.19:673][325]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.31-17.57.19:673][325]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.31-17.57.19:673][325]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.31-17.57.19:674][325]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.31-17.57.19:674][325]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.31-17.57.19:674][325]LogInit: FAudioDevice initialized.
+[2022.03.31-17.57.19:674][325]LogAudio: Display: Audio Device (ID: 8) registered with world 'Untitled_1'.
+[2022.03.31-17.57.19:684][325]LogLoad: Game class is 'GameModeBase'
+[2022.03.31-17.57.19:685][325]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2022.03.31-13.57.19
+[2022.03.31-17.57.19:685][325]LogWorld: Bringing up level for play took: 0.000469
+[2022.03.31-17.57.19:686][325]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2022.03.31-17.57.19:687][325]LogRuntimeDataTable: URL to download csv is https://docs.google.com/spreadsheets/d/1za1ITRt5-hlSccK7QHmRE5Mhy4UpQgKe-48D4Uew028/export?format=csv&gid=0
+[2022.03.31-17.57.19:687][325]LogRuntimeDataTable: URL to download csv is https://docs.google.com/spreadsheets/d/1za1ITRt5-hlSccK7QHmRE5Mhy4UpQgKe-48D4Uew028/export?format=csv&gid=0
+[2022.03.31-17.57.19:688][325]PIE: Server logged in
+[2022.03.31-17.57.19:689][325]PIE: Play in editor total start time 0.076 seconds.
+[2022.03.31-17.57.19:889][338]LogRuntimeDataTable: URuntimeDataTableObject::GenericValidateHttpResponse: GET Response received, success: true, Response code: 200, Response:
+Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.57.19:889][338]LogBlueprintUserMessages: [BP_Doc_2] Well The stuff should be in an array
+[2022.03.31-17.57.19:922][340]LogRuntimeDataTable: URuntimeDataTableObject::GenericValidateHttpResponse: GET Response received, success: true, Response code: 200, Response:
+Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.57.19:922][340]LogBlueprintUserMessages: [BP_Doc_2] Food Bin # Label,Food Bin# Integer,Time of Measurement,Amount of food Remaining
+Food Bin #1,1,08:23.21,100
+Food Bin #1,1,09:23.21,92
+Food Bin #1,1,10:23.21,88
+Food Bin #1,1,11:23.21,87
+Food Bin #1,1,12:23.21,75
+Food Bin #1,1,01:23.21,74
+Food Bin #1,1,02:23.21,73
+Food Bin #1,1,03:23.21,65
+Food Bin #1,1,04:23.21,63
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:100][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.29:231][884]EditorErrors: Warning: No assets to check in!
+[2022.03.31-17.57.36:702][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DT_Ping" FILE="D:/RealTimeDataPing/RealTimeDataPing/Content/DT_Ping.uasset" SILENT=true
+[2022.03.31-17.57.36:703][324]LogSavePackage: Moving 'D:/RealTimeDataPing/RealTimeDataPing/Saved/DT_PingC53ED84E492AC9BDF0B196B81A3B60E8.tmp' to 'D:/RealTimeDataPing/RealTimeDataPing/Content/DT_Ping.uasset'
+[2022.03.31-17.57.37:039][324]AssetCheck: New page: Asset Save: DT_Ping
+[2022.03.31-17.57.37:039][324]LogContentValidation: Display: Validating DataTable /Game/DT_Ping.DT_Ping
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:189][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:190][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/RealTimeDataPing'
+[2022.03.31-17.57.42:353][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DT_Ping" FILE="D:/RealTimeDataPing/RealTimeDataPing/Content/DT_Ping.uasset" SILENT=true
+[2022.03.31-17.57.42:354][628]LogSavePackage: Moving 'D:/RealTimeDataPing/RealTimeDataPing/Saved/DT_Ping8210565242BB4700466163A6EAABC54E.tmp' to 'D:/RealTimeDataPing/RealTimeDataPing/Content/DT_Ping.uasset'
+[2022.03.31-17.57.52:638][628]LogSlate: Window 'Submit Files' being destroyed
+[2022.03.31-17.57.53:497][628]LogSourceControl: commit successful: [main edce459] Added DataTable
+[2022.03.31-17.57.53:529][628]SourceControl: [main edce459] Added DataTable
+[2022.03.31-17.57.53:529][628]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2022.03.31-17.57.53:529][628]SourceControl:  create mode 100644 RealTimeDataPing/Content/DT_Ping.uasset
+[2022.03.31-17.57.53:536][628]SourceControl: Commited [main edce459] Added DataTable.
+[2022.03.31-17.57.53:562][629]AssetCheck: New page: Asset Save: DT_Ping
+[2022.03.31-17.57.53:562][629]LogContentValidation: Display: Validating DataTable /Game/DT_Ping.DT_Ping
