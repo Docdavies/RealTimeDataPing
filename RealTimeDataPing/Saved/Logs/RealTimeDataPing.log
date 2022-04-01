@@ -6128,3 +6128,14 @@ Food Bin #1,1,07:23.21,15
 [2022.04.01-18.38.24:046][320]SourceControl: Commited [main 1ee96c4] Added some print stuff and way to look at individual piece of data from struct.
 [2022.04.01-18.38.24:053][320]AssetCheck: New page: Asset Save: DocsLevel
 [2022.04.01-18.38.24:053][320]LogContentValidation: Display: Validating World /Game/DocsLevel.DocsLevel
+[2022.04.01-18.48.34:312][375]LogHttp: Warning: 000001FBEBA9C800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC42DE79A-43FC-9EA1-DB4B-3DAAE6D3434B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=154bea654b63e47039709d843f54bf9f%7Cf8bafd14509f4b308f48d2d0e4e2961a%7C460d9e44-da18-480d-be27-bbb6143c0802&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.01-18.48.34:312][375]LogHttp: Warning: 000001FBEBA9C800: request failed, libcurl error: 0 (No error)
+[2022.04.01-18.48.34:312][375]LogHttp: Warning: 000001FBEBA9C800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fb77fb52a0 [can pipeline])
+[2022.04.01-18.48.34:312][375]LogHttp: Warning: 000001FBEBA9C800: libcurl info message cache 1 (Re-using existing connection! (#175) with host datarouter.ol.epicgames.com)
+[2022.04.01-18.48.34:312][375]LogHttp: Warning: 000001FBEBA9C800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.167.14.174) port 443 (#175))
+[2022.04.01-18.48.34:312][375]LogHttp: Warning: 000001FBEBA9C800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.04.01-18.48.34:312][375]LogHttp: Warning: 000001FBEBA9C800: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2022.04.01-18.48.34:312][375]LogHttp: Warning: 000001FBEBA9C800: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2022.04.01-18.48.34:312][375]LogHttp: Warning: 000001FBEBA9C800: libcurl info message cache 6 (Closing connection 175)
+[2022.04.01-18.48.34:312][375]LogHttp: Warning: 000001FBEBA9C800: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.04.01-18.48.34:645][376]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC42DE79A-43FC-9EA1-DB4B-3DAAE6D3434B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=154bea654b63e47039709d843f54bf9f%7Cf8bafd14509f4b308f48d2d0e4e2961a%7C460d9e44-da18-480d-be27-bbb6143c0802&AppEnvironment=datacollector-binary&UploadType=eteventstream
